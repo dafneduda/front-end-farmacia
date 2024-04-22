@@ -1,4 +1,4 @@
-import homeLogo from '../../assets/homeLogo.jpg'
+import homeLogo from '../../assets/farmacia.png'
 import './Home.css';
 
 function Home() {
