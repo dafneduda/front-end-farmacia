@@ -89,4 +89,5 @@ function login(e: ChangeEvent<HTMLFormElement>) {
   );
 }
 
-export default Login;
+
+export default Login
