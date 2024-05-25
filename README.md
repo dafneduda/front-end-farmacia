@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+# Front-End Farmácia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Visão Geral
+Este repositório contém o código fonte de um projeto de front-end para uma aplicação de farmácia, desenvolvido utilizando React, TypeScript e Vite.
 
-Currently, two official plugins are available:
+## Funcionalidades
+- Interface de usuário interativa para gestão de farmácia
+- Implementação de boas práticas com TypeScript
+- Configuração de desenvolvimento rápida com Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalação
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/dafneduda/front-end-farmacia.git
+   ```
+2. Instale as dependências:
+   ```bash
+   yarn install
+   ```
 
-## Expanding the ESLint configuration
+## Uso
+1. Inicie o servidor de desenvolvimento:
+   ```bash
+   yarn run dev
+   ```
+2. Acesse a aplicação no navegador através do endereço fornecido no terminal.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Screenshots
 
-- Configure the top-level `parserOptions` property like this:
+Login:
+![Captura de Tela 2024-05-24 às 22 55 47](https://github.com/dafneduda/front-end-farmacia/assets/147463270/5537bb76-79f1-432d-a112-9f442ea07abe)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Home:
+![Captura de Tela 2024-05-24 às 22 51 51](https://github.com/dafneduda/front-end-farmacia/assets/147463270/78b4258d-852f-4d2b-ae7a-965af96c1744)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Cadastrar categoria:
+![Captura de Tela 2024-05-24 às 22 51 46](https://github.com/dafneduda/front-end-farmacia/assets/147463270/48e0619e-8cf2-42dd-b7fb-bbcb2f5a5b23)
+
+---
+
+Para mais detalhes, visite o [repositório](https://github.com/dafneduda/front-end-farmacia).
