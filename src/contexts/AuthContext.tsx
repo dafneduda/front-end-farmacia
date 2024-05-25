@@ -1,6 +1,6 @@
 import { createContext, ReactNode, useState } from "react"
 import UsuarioLogin from "../models/UsuarioLogin"
-import { login } from "../services/Service"
+//import { login } from "../services/Service"
 
 interface AuthContextProps {
     usuario: UsuarioLogin
@@ -31,7 +31,12 @@ export function AuthProvider({ children }: AuthProviderProps) {
     async function handleLogin(userLogin: UsuarioLogin) {
         setIsLoading(true)
         try {
-            await login(`/usuarios/logar`, userLogin, setUsuario)
+            //await login(`/usuarios/logar`, userLogin, setUsuario)
+            setUsuario({
+                ...userLogin,
+                token: "fake-token" // Adiciona um token fictício para simular autenticação
+            })
+            
             alert("Usuário logado com sucesso")
             setIsLoading(false)
 
@@ -42,6 +47,8 @@ export function AuthProvider({ children }: AuthProviderProps) {
         }
     }
 
+
+    
     function handleLogout() {
         setUsuario({
             id: 0,
