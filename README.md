@@ -1,7 +1,7 @@
-# Front-End Farmácia
+# Performance Goals Generation - Módulo 2 (front-end)
 
 ## Visão Geral
-Este repositório contém o código fonte de um projeto de front-end para uma aplicação de farmácia, desenvolvido utilizando React, TypeScript e Vite.
+Este repositório focado na avaliação mensal do Bootcamp da Generation contém o código fonte de um projeto de front-end para uma aplicação de farmácia, desenvolvido utilizando React, TypeScript e Vite.
 
 ## Funcionalidades
 - Interface de usuário interativa para gestão de farmácia
